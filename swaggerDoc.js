@@ -10,7 +10,7 @@ export const options = {
         },
 		servers: [
 			{
-				url: "http://localhost:8000",
+				url: "http://54.94.255.10:8000",
                 description:'Rota para requisições'
 			},
 		],
