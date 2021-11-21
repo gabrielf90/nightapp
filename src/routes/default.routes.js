@@ -1,5 +1,5 @@
 import Busboy from 'busboy';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import moment from 'moment';
 import express from 'express';
 import mongoose from 'mongoose';

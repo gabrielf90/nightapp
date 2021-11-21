@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 import User from '../models/user.js';
 import aws from '../services/aws.js';
 import Genre from '../models/genre.js';
