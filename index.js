@@ -32,9 +32,7 @@ app.use('/default', defaultRoutes)
 app.use('/app', appRoutes)
 app.use('/api-docs', swaggerUi.serve,swaggerUi.setup(specs))
 app.get('/', (req, res) =>{
-    return res.json({message:"server on"})
+    return res.json({message:"server on "})
 })
 
-app.listen(8000, () =>{
-    console.log('WS RODANDO')
-})
+app.listen(3333)
