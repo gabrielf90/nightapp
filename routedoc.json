@@ -1,0 +1,32 @@
+{
+    "components":{
+        "schemas":{
+            "teste":{
+                "name":{
+                    "type":"string"
+                    ,"description":"Nome do "
+                },
+                "dataStart":{
+                "type":"date",
+                "description":"Inicio"
+                },
+                "token":[
+                    {
+                        "name":{
+                            "type":"string"
+                            ,"description":"Nome do "
+                        },
+                        "price":{
+                            "type":"number"
+                            ,"description":"Nome do "
+                        },
+                        "qnt":{
+                            "type":"number"
+                            ,"description":"Nome do "
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
